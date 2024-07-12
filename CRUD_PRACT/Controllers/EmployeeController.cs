@@ -18,6 +18,7 @@ namespace CRUD_PRACT.Controllers
             this.employeeDbContext = employeeDbContext;
         }
 
+
         [Authorize]
         [HttpGet]
         [Route("GetData")]
@@ -34,6 +35,7 @@ namespace CRUD_PRACT.Controllers
             return Ok(fetchdtos) ;
         }
 
+
         [HttpPost]
         [AllowAnonymous]
         [Route("CreateEmployee")]
@@ -45,13 +47,16 @@ namespace CRUD_PRACT.Controllers
                 Email = employeeDto.Email,
                 Post  = employeeDto.Post,
                 Salary = employeeDto.Salary,
-                Password = employeeDto.Password,
+                Password = employeeDto.Password,              
             };
+            if (employeeDto.Name.Contains("AD")) employeeentity.Role = "Admin";
+            else employeeentity.Role = "User";
             employeeDbContext.employeesCRUDPrac.Add(employeeentity);
             employeeDbContext.SaveChanges();
             return Ok(employeeentity);
 
         }
+
 
         [Authorize]
         [HttpGet]
@@ -65,6 +70,47 @@ namespace CRUD_PRACT.Controllers
                 return BadRequest();
             }
             return Ok(employee);
+        }
+
+
+        [Authorize(Roles ="Admin")]
+        [HttpPut]
+        [Route("{id}")]
+        public IActionResult updateEmployeeById(Guid id, EmployeeDto employeeDto)
+        {
+            var employee = employeeDbContext.employeesCRUDPrac.Find(id);
+            if(employee == null) return BadRequest();
+            employee.Name = employeeDto.Name;
+            employee.Email = employeeDto.Email;
+            employee.Post   = employeeDto.Post;
+            employee.Salary = employeeDto.Salary;
+            employee.Password = employeeDto.Password;
+            //var employeeentity = new Employee()
+            //{
+            //    Name = employeeDto.Name,
+            //    Email = employeeDto.Email,
+            //    Post = employeeDto.Post,
+            //    Salary = employeeDto.Salary,
+            //    Password = employeeDto.Password,
+            //};
+            if (employeeDto.Name.Contains("AD")) employee.Role = "Admin";
+            else employee.Role = "User";
+            employeeDbContext.employeesCRUDPrac.Update(employee);
+            employeeDbContext.SaveChanges();
+            return Ok(employee);
+
+        }
+
+
+        [Authorize(Roles="Admin")]
+        [HttpDelete]
+        [Route("{id}")]
+        public ActionResult deleteEmployeeById(Guid id) {
+            var employee = employeeDbContext.employeesCRUDPrac.Find(id);
+            if (employee == null) return BadRequest("You don't have the authority!");
+            employeeDbContext.employeesCRUDPrac.Remove(employee);
+            employeeDbContext.SaveChanges();
+            return Ok("Deleted Successfully");
         }
     }
 }

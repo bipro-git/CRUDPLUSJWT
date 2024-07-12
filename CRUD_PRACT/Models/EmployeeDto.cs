@@ -12,5 +12,6 @@ namespace CRUD_PRACT.Models
         public long? Salary { get; set; }
 
         public  string Password { get; set; }
+        public string Role { get; set; }
     }
 }
