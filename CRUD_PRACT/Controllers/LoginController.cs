@@ -32,7 +32,7 @@ namespace CRUD_PRACT.Controllers
 
                 if (id == employee.id && password == employee.Password)
                 {
-                    return new Employee { id = employee.id, Name = employee.Name, Email = employee.Email, Post = employee.Post, Salary = employee.Salary };
+                    return new Employee { id = employee.id, Name = employee.Name, Email = employee.Email, Post = employee.Post, Salary = employee.Salary , Role=employee.Role };
                 }
                 else return null;
             }
@@ -46,10 +46,17 @@ namespace CRUD_PRACT.Controllers
         {
             var claims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name,"Username"),
-                new Claim(ClaimTypes.Role,"Admin"),
-                new Claim(ClaimTypes.Role,"User")
+                //new Claim(ClaimTypes.Name,"Username"),
+                //new Claim(ClaimTypes.Role,"Admin"),
+                //new Claim(ClaimTypes.Role,"User")
+                 new Claim(JwtRegisteredClaimNames.Sub, employee.id.ToString()),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim(JwtRegisteredClaimNames.Email, employee.Email),
+                new Claim(ClaimTypes.Name, employee.Name)
             };
+            var role = employee.Role;
+            claims.Add(new Claim(ClaimTypes.Role, employee.Role));
+
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
