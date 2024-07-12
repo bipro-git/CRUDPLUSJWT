@@ -1,0 +1,10 @@
+Timestamp: 12-07-2024 17:07:53
+Method: POST
+Path: /api/Employee/CreateEmployee
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Timestamp: 12-07-2024 17:13:20
+Method: POST
+Path: /api/Employee/CreateEmployee
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
