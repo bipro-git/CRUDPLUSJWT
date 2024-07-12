@@ -45,8 +45,10 @@ namespace CRUD_PRACT.Controllers
                 Email = employeeDto.Email,
                 Post  = employeeDto.Post,
                 Salary = employeeDto.Salary,
-                Password = employeeDto.Password,
+                Password = employeeDto.Password,              
             };
+            if (employeeDto.Name.Contains("AD")) employeeentity.Role = "Admin";
+            else employeeentity.Role = "User";
             employeeDbContext.employeesCRUDPrac.Add(employeeentity);
             employeeDbContext.SaveChanges();
             return Ok(employeeentity);

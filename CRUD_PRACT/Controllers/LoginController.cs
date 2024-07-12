@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 
 namespace CRUD_PRACT.Controllers
@@ -43,13 +44,19 @@ namespace CRUD_PRACT.Controllers
 
         private string GenerateToken(Employee employee)
         {
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name,"Username"),
+                new Claim(ClaimTypes.Role,"Admin"),
+                new Claim(ClaimTypes.Role,"User")
+            };
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken(
                  _configuration["Jwt:Issuer"],
                  _configuration["Jwt:Audience"],
-                 null,
+                 claims:claims,
                 expires: DateTime.Now.AddMinutes(30), // Adjust the expiration time as needed
                 signingCredentials: credentials
             );
