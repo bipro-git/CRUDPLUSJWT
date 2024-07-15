@@ -1,18 +1,16 @@
-Timestamp: 12-07-2024 17:07:53
-Method: POST
-Path: /api/Employee/CreateEmployee
-QueryString: 
-Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
-Timestamp: 12-07-2024 17:13:20
-Method: POST
-Path: /api/Employee/CreateEmployee
-QueryString: 
-Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
-Timestamp: 12-07-2024 17:31:44
-Method: POST
-Path: /api/Employee/CreateEmployee
-QueryString: 
-Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
 
 
 
+Timestamp: 15-07-2024 10:49:54
+Method: POST
+Path: /api/Login
+QueryString: System.Func`1[System.String]
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeadersBody : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+
+
+Timestamp: 15-07-2024 10:51:29
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
