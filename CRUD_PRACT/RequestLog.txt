@@ -8,3 +8,11 @@ Method: POST
 Path: /api/Employee/CreateEmployee
 QueryString: 
 Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Timestamp: 12-07-2024 17:31:44
+Method: POST
+Path: /api/Employee/CreateEmployee
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+
+
+
