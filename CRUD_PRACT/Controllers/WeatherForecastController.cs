@@ -18,6 +18,12 @@ namespace CRUD_PRACT.Controllers
             _logger = logger;
         }
 
+        [HttpGet("throw")]
+        public IActionResult ThrowException()
+        {
+            throw new Exception("Test exception");
+        }
+
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
