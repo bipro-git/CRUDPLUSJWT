@@ -1,0 +1,469 @@
+
+
+
+[Request]
+Timestamp: 15-07-2024 15:18:46
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+
+
+[Request]
+Timestamp: 15-07-2024 15:19:29
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+
+[Response]
+Timestamp: 15-07-2024 15:19:52
+StatusCode: 500
+Response: 
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 15:20:58
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+
+[Response]
+Timestamp: 15-07-2024 15:21:05
+StatusCode: 402
+Response: 
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 15:24:30
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+
+
+[Request]
+Timestamp: 15-07-2024 15:32:27
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+
+[Response]
+Timestamp: 15-07-2024 15:32:46
+StatusCode: 402
+Response: 
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 15:37:51
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+
+[Response]
+Timestamp: 15-07-2024 15:37:59
+StatusCode: 402
+Response: 
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 15:39:42
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+
+[Response]
+Timestamp: 15-07-2024 15:40:56
+StatusCode: 402
+Response: 
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 15:41:26
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+
+[Response]
+Timestamp: 15-07-2024 15:43:02
+StatusCode: 102
+Response: 
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 15:43:33
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+
+[Response]
+Timestamp: 15-07-2024 15:43:39
+StatusCode: 102
+Response: 
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 15:44:26
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+
+[Response]
+Timestamp: 15-07-2024 15:44:28
+StatusCode: 303
+Response: 
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 15:51:29
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 15:51:31
+StatusCode: 303
+Response: 
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 15:52:22
+Method: GET
+Path: /WeatherForecast
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 15:52:22
+StatusCode: 200
+Response: [{"date":"2024-07-16","temperatureC":6,"temperatureF":42,"summary":"Sweltering"},{"date":"2024-07-17","temperatureC":-4,"temperatureF":25,"summary":"Bracing"},{"date":"2024-07-18","temperatureC":-9,"temperatureF":16,"summary":"Balmy"},{"date":"2024-07-19","temperatureC":-5,"temperatureF":24,"summary":"Freezing"},{"date":"2024-07-20","temperatureC":-11,"temperatureF":13,"summary":"Hot"}]
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 15:57:59
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 15:58:02
+StatusCode: 303
+Response: 
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 15:58:12
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 15:58:14
+StatusCode: 303
+Response: 
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 15:58:14
+Method: GET
+Path: /favicon.ico
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 15:58:14
+StatusCode: 404
+Response: 
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 16:00:32
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 16:00:35
+StatusCode: 303
+Response: 
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 16:00:54
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 16:01:08
+StatusCode: 303
+Response: 
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:04:48
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:04:51
+StatusCode: 303
+Response: 
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:06:36
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:06:42
+StatusCode: 303
+Response: 
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:08:35
+Method: GET
+Path: /WeatherForecast/throw
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:09:05
+StatusCode: 303
+Response: 
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:09:49
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:09:51
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiJiMmU3YzhlZi1jODQzLTRhZmQtYjU2NS03Nzc3MTY2YWY4N2QiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjEwNDUzOTEsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.qp9MQnIqvve_aZHpaZ6CaCC6Vy5MgxXwys8rEHq7AOo"}
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:11:34
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:11:34
+StatusCode: 200
+Response: [{"name":"Biprodeep Das","email":"bipro1@gmail.com","post":"Associate","salary":100},{"name":"Gobinda Saha","email":"gobinda@gmail.com","post":"Senior","salary":200},{"name":"BiprodeepAD","email":"bipro12@gmail.com","post":"Associate","salary":100},{"name":"Hulk","email":"hulk@gmail.com","post":"Marketer","salary":10},{"name":"Rythm Sen","email":"rythm@mail.com","post":"Associate","salary":100},{"name":"Raja Banik","email":"raja@gmail.com","post":"Associate","salary":100}]
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:39:19
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:39:22
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiJiYTM0MGQ4Mi1lMDYzLTRlMDAtYTAxNC1mYjJjODRhMjIwY2QiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjEwNDcxNjIsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.GmpG9vRpGDeMsf6RjHjHovaCiASAjkCjNKfYCgIvSls"}
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:39:40
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:39:40
+StatusCode: 200
+Response: [{"name":"Biprodeep Das","email":"bipro1@gmail.com","post":"Associate","salary":100},{"name":"Gobinda Saha","email":"gobinda@gmail.com","post":"Senior","salary":200},{"name":"BiprodeepAD","email":"bipro12@gmail.com","post":"Associate","salary":100},{"name":"Hulk","email":"hulk@gmail.com","post":"Marketer","salary":10},{"name":"Rythm Sen","email":"rythm@mail.com","post":"Associate","salary":100},{"name":"Raja Banik","email":"raja@gmail.com","post":"Associate","salary":100}]
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:39:53
+Method: POST
+Path: /api/Logout/logout
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:39:53
+StatusCode: 200
+Response: Token has been blacklisted
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:41:02
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:41:02
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiI4OGU4ZWViZC03ZDdhLTRiNWQtOTQwNS0xODgzMDliNDE5M2QiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjEwNDcyNjIsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.x905cYcjfeqsJcmGU9qk1A1wcU9U9ijMfKkay9Qbddg"}
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:41:11
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:41:11
+StatusCode: 200
+Response: [{"name":"Biprodeep Das","email":"bipro1@gmail.com","post":"Associate","salary":100},{"name":"Gobinda Saha","email":"gobinda@gmail.com","post":"Senior","salary":200},{"name":"BiprodeepAD","email":"bipro12@gmail.com","post":"Associate","salary":100},{"name":"Hulk","email":"hulk@gmail.com","post":"Marketer","salary":10},{"name":"Rythm Sen","email":"rythm@mail.com","post":"Associate","salary":100},{"name":"Raja Banik","email":"raja@gmail.com","post":"Associate","salary":100}]
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:41:54
+Method: POST
+Path: /api/Logout/logout
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:41:54
+StatusCode: 400
+Response: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"errors":{"$":["'s' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0."],"token":["The token field is required."]},"traceId":"00-6196c285a846515aabacc95713315b48-9851530faf2461c0-00"}
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:42:10
+Method: POST
+Path: /api/Logout/logout
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:42:10
+StatusCode: 200
+Response: Token has been blacklisted
+

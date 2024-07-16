@@ -1,16 +1,64 @@
 
 
 
-Timestamp: 15-07-2024 10:49:54
-Method: POST
-Path: /api/Login
-QueryString: System.Func`1[System.String]
-Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeadersBody : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
-
-
-Timestamp: 15-07-2024 10:51:29
+[Request]
+Timestamp: 15-07-2024 15:07:45
 Method: POST
 Path: /api/Login
 QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+
+
+[Request]
+Timestamp: 15-07-2024 15:08:51
+Method: PUT
+Path: /api/Employee/5C4FF3C2-5F6D-4DD8-2389-08DCA4AE9826
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+
+
+[Request]
+Timestamp: 15-07-2024 15:10:41
+Method: GET
+Path: /api/Employee/7B5EFDC5-E5C6-415C-88E8-08DC99983D2A
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+
+
+[Request]
+Timestamp: 15-07-2024 15:10:59
+Method: GET
+Path: /api/Employee/7B5EFDC5-E5C6-415C-88E8-08DC99983D2A
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+
+
+[Request]
+Timestamp: 15-07-2024 15:11:20
+Method: GET
+Path: /api/Employee/47E22402-DC24-4069-F6CA-08DCA0D8D62B
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+
+
+[Request]
+Timestamp: 15-07-2024 15:11:37
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+
+
+[Request]
+Timestamp: 15-07-2024 15:12:01
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
 Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
 Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream

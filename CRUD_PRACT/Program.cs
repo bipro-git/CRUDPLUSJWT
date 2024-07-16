@@ -1,5 +1,5 @@
-using CRUD_PRACT;
 using CRUD_PRACT.Data;
+using CRUD_PRACT.Middlewares;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -45,9 +45,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseMiddleware<CustomMiddleware>();
+
 
 app.UseHttpsRedirection();
+
+app.UseMiddleware<BlockToken>();
+
+app.UseMiddleware<CustomMiddleware>();
+
+app.UseMiddleware<GlobalExceptionHandlingMiddleware>();
 
 app.UseAuthentication();
 
