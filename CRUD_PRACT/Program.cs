@@ -1,4 +1,3 @@
-using CRUD_PRACT;
 using CRUD_PRACT.Data;
 using CRUD_PRACT.Middlewares;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -47,7 +46,10 @@ if (app.Environment.IsDevelopment())
 }
 
 
+
 app.UseHttpsRedirection();
+
+app.UseMiddleware<BlockToken>();
 
 app.UseMiddleware<CustomMiddleware>();
 

@@ -348,3 +348,122 @@ Timestamp: 15-07-2024 17:11:34
 StatusCode: 200
 Response: [{"name":"Biprodeep Das","email":"bipro1@gmail.com","post":"Associate","salary":100},{"name":"Gobinda Saha","email":"gobinda@gmail.com","post":"Senior","salary":200},{"name":"BiprodeepAD","email":"bipro12@gmail.com","post":"Associate","salary":100},{"name":"Hulk","email":"hulk@gmail.com","post":"Marketer","salary":10},{"name":"Rythm Sen","email":"rythm@mail.com","post":"Associate","salary":100},{"name":"Raja Banik","email":"raja@gmail.com","post":"Associate","salary":100}]
 
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:39:19
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:39:22
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiJiYTM0MGQ4Mi1lMDYzLTRlMDAtYTAxNC1mYjJjODRhMjIwY2QiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjEwNDcxNjIsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.GmpG9vRpGDeMsf6RjHjHovaCiASAjkCjNKfYCgIvSls"}
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:39:40
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:39:40
+StatusCode: 200
+Response: [{"name":"Biprodeep Das","email":"bipro1@gmail.com","post":"Associate","salary":100},{"name":"Gobinda Saha","email":"gobinda@gmail.com","post":"Senior","salary":200},{"name":"BiprodeepAD","email":"bipro12@gmail.com","post":"Associate","salary":100},{"name":"Hulk","email":"hulk@gmail.com","post":"Marketer","salary":10},{"name":"Rythm Sen","email":"rythm@mail.com","post":"Associate","salary":100},{"name":"Raja Banik","email":"raja@gmail.com","post":"Associate","salary":100}]
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:39:53
+Method: POST
+Path: /api/Logout/logout
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:39:53
+StatusCode: 200
+Response: Token has been blacklisted
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:41:02
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:41:02
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiI4OGU4ZWViZC03ZDdhLTRiNWQtOTQwNS0xODgzMDliNDE5M2QiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjEwNDcyNjIsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.x905cYcjfeqsJcmGU9qk1A1wcU9U9ijMfKkay9Qbddg"}
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:41:11
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:41:11
+StatusCode: 200
+Response: [{"name":"Biprodeep Das","email":"bipro1@gmail.com","post":"Associate","salary":100},{"name":"Gobinda Saha","email":"gobinda@gmail.com","post":"Senior","salary":200},{"name":"BiprodeepAD","email":"bipro12@gmail.com","post":"Associate","salary":100},{"name":"Hulk","email":"hulk@gmail.com","post":"Marketer","salary":10},{"name":"Rythm Sen","email":"rythm@mail.com","post":"Associate","salary":100},{"name":"Raja Banik","email":"raja@gmail.com","post":"Associate","salary":100}]
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:41:54
+Method: POST
+Path: /api/Logout/logout
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:41:54
+StatusCode: 400
+Response: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"errors":{"$":["'s' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0."],"token":["The token field is required."]},"traceId":"00-6196c285a846515aabacc95713315b48-9851530faf2461c0-00"}
+
+
+
+
+[Request]
+Timestamp: 15-07-2024 17:42:10
+Method: POST
+Path: /api/Logout/logout
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 15-07-2024 17:42:10
+StatusCode: 200
+Response: Token has been blacklisted
+

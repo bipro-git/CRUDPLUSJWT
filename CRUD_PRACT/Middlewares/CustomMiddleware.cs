@@ -1,7 +1,7 @@
 ﻿
 using Azure.Core;
 
-namespace CRUD_PRACT
+namespace CRUD_PRACT.Middlewares
 {
     public class CustomMiddleware
     {
@@ -22,13 +22,13 @@ namespace CRUD_PRACT
 
 
             var request = context.Request;
-            var logDetails = "\n\n\n[Request]\n" + 
+            var logDetails = "\n\n\n[Request]\n" +
                          $"Timestamp: {DateTime.Now}\n" +
                          $"Method: {request.Method}\n" +
                          $"Path: {request.Path}\n" +
                          $"QueryString: {request.QueryString.ToString()}\n" +
                          $"Headers: {request.Headers}\n" +
-                         $"Body : {request.Body}\n"+
+                         $"Body : {request.Body}\n" +
                          $"Ip Address : {context.Connection.RemoteIpAddress.ToString()}";
 
 
@@ -45,7 +45,7 @@ namespace CRUD_PRACT
             var responseText = await new StreamReader(context.Response.Body).ReadToEndAsync();
             context.Response.Body.Seek(0, SeekOrigin.Begin);
 
-            var logDetails = "\n\n[Response]\n"+
+            var logDetails = "\n\n[Response]\n" +
                              $"Timestamp: {DateTime.Now}\n" +
                              $"StatusCode: {context.Response.StatusCode}\n" +
                              $"Response: {responseText}\n\n";
