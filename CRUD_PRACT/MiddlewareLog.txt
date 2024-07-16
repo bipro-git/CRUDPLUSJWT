@@ -467,3 +467,1031 @@ Timestamp: 15-07-2024 17:42:10
 StatusCode: 200
 Response: Token has been blacklisted
 
+
+
+
+[Request]
+Timestamp: 16-07-2024 11:38:41
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 11:38:58
+StatusCode: 303
+Response: 
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 11:39:53
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 11:39:55
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiJiM2ZiMThkNC0yNzUyLTRjNjctOGQyYy05NWU0MDZmNjQ2MjEiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMTE5OTUsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.ENlnyfW1_sO1A7_gtyiNCJFQzATXaIQFa6GM6uMKZrA"}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 11:40:07
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 11:40:43
+StatusCode: 303
+Response: 
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 11:42:01
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 11:42:02
+StatusCode: 400
+Response: Invalid refresh token
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 11:47:43
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 11:47:46
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiJiNWNlNTZhMS00NjA0LTQ2MDEtYWM5Ny1kNGYwYzBlYzc4NjEiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMTI0NjYsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.Q-fOs4LBKjP4pvL6-cK4EsAFZcUX2exiXXzTgOaU_ok","refreshToken":"qMMLqdC7cSdALVbwv+7PKG3tcHsH94vKGueXWjNR2qo="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 11:48:45
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 11:48:45
+StatusCode: 400
+Response: Invalid refresh token
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 11:49:54
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+
+[Request]
+Timestamp: 16-07-2024 11:53:01
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 11:54:02
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiIxNDk1NjVmZi04YzljLTRjMGQtYTBjYS04NzJmOWMxNjhmYWUiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMTI3ODMsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.LbIxKizJhRLeBgjBcE9wYBSHqJhVhkBd-3vw71LYEm8","refreshToken":"avxTshpE9c5RLyS5xshd5myUhmJmkoAdVSjl9WWR++o="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 11:55:04
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 11:55:13
+StatusCode: 400
+Response: Invalid refresh token
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 11:55:43
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 11:59:02
+StatusCode: 400
+Response: Invalid refresh token
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 11:59:02
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 11:59:04
+StatusCode: 400
+Response: Invalid refresh token
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 12:04:38
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 12:04:40
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiJiMTkzYzQ5Yy02MDZlLTQ4OGQtYWVjZi03MTFhMDliZjliMWMiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMTM0ODAsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.WpKDx95wyzc0jiSpgrxblRDfkmcxUWozb_AURUl8os8","refreshToken":"jo0MVSwrDCSEK0g3flQPx6lyphZOv9HXIh6E5VPSU5w="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 12:05:15
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+
+[Request]
+Timestamp: 16-07-2024 12:06:40
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 12:06:43
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiJhMDlkZDE5Ni1hMDYyLTQ0NDItYWU4NS00ZGQ2MjA4MDAxM2YiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMTM2MDIsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.yg_XWELoIpqKxnDml8Z7oK63kxi_mxQ1zIhcyCn1hHI","refreshToken":"CtNk76HGfyLFCG8Tf9WZBwdz13nYhWbXx8CtzrhjTPM="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 12:07:00
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 12:07:00
+StatusCode: 400
+Response: Invalid refresh token
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 12:07:21
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+
+[Request]
+Timestamp: 16-07-2024 12:16:09
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 12:16:12
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiIxOThkNmFkNC1kNmU4LTQzNjUtODI5YS1mZDA5YzEwMjRlYTEiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMTQxNzIsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.djhBTAt8u3SH_fZVgQBxAbSmcQRrpqvimV0N_JvJn_c","refreshToken":"mizHm1WIgbhNHFDsjiXrS4cAOuBbNs1RXf9sFtADsr0="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 12:16:30
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 12:16:30
+StatusCode: 400
+Response: Invalid refresh token
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 12:16:50
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+
+[Request]
+Timestamp: 16-07-2024 12:22:33
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 12:22:35
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiI5ZTc4MzI4YS01MmFhLTQ1MzMtYmQzYy00YzgzYzUxZGRmZTEiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMTQ1NTUsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.WMSlWuocbmuj2CrgHhftrMwD4cvpCT0HhiGUr1-ClxU","refreshToken":"p0U28hjJNkGw7YFSanyHjo7tQF539XwEvOBnciAm04o="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 12:22:57
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+
+[Request]
+Timestamp: 16-07-2024 12:27:34
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 12:27:37
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiIxYTMyZTcxYy03NTFlLTQ4YTktYWYwYS1iZTNjOGFiZjhjNWIiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMTQ4NTcsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.k7HVxxv5W4Rum3GZ-4LgQTP7nVKrLn4fQRUid8bPgp4","refreshToken":"2Ck+3Pn8pxoF1JD9yPtFD+t8SmDE3hEwaesvaP4FS/M="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 12:27:52
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+
+[Request]
+Timestamp: 16-07-2024 12:32:39
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 12:32:42
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiI3ZWRmYTZjYi03ZWExLTQ5Y2ItYTQxNC01ZTMxZjliZjkwYzQiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMTUxNjIsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.f3Cq7pkShC7AwWxak5DDL9b34SxhvGveDMxGyMOofAc","refreshToken":"GKUfjXM4RJ4GRKSbopO8H/q6p2eGgQfWiuaJlaC6Mt4="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 12:32:55
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 12:33:03
+StatusCode: 400
+Response: Invalid refresh token
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 12:34:19
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 12:34:22
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiI4ZjM2NDExOS1hN2M1LTQzMDUtYjQ3Yy04ZGE1NmI3MmMyZWEiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMTUyNjIsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.KjAS7cn-Bil1XCXS93SUVatpzzBP68mYxryxh-gQ4mE","refreshToken":"nqwzi569V6LMdUhdRGLOL+MjD9YwvhO8I1t402butcU="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 12:34:44
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 12:34:50
+StatusCode: 400
+Response: Invalid refresh token
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 12:39:28
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 12:39:30
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiI2ODhkMGEwMS03NDhlLTQ4MmQtYTIyMS1mNmZlOTMzNTc4MmUiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMTU1NzAsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.8nGN5fvlcR9AK4588EJFAVRhfMSw4sjPqsVkuukEnY8","refreshToken":"RFRZhIyKA6xbh4xeJTUaPp3jDrzKFYgAr+PnVQocb14="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 12:39:48
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+
+[Request]
+Timestamp: 16-07-2024 12:57:43
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 12:57:45
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiI1ZmI5OTEzNi1hNDM4LTQ4NDUtYWViNS05M2MwZGNhNTlmNGYiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMTY2NjUsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.XPdTCrLFDOkkCQ42oVkfzYSc7TOctmb5sBB20c_oM0g","refreshToken":"cQ+sLkBzTUB3VbGNElw92/F2zAmcuwSWtcGl2pt9zXE="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 12:58:04
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+
+[Request]
+Timestamp: 16-07-2024 14:24:53
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 14:25:44
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiJkYzA4MjY1YS0yNjc2LTRiMTQtYmIzNi1mZjhkZDhlMTk4ZWYiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMjE4OTUsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.EVq0F-dgR_yY8FZSZC8kPI8n8st3lwJe095ffGX80pY","refreshToken":"JH+B1x6FOT6PBQq/wo2Io/rwJJdNvpUh7VIOhVGxhrQ="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 14:28:01
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+
+[Request]
+Timestamp: 16-07-2024 14:35:59
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 14:36:04
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiI2NzUzOTY1ZS00NWJiLTQyYmItOGI2Yi0zZThhNGU3YWRjM2QiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMjI1NjEsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.6NabqJ7kLsy-qxm_yJ3F0zIqAaKY8NeVyiNYYKFRbEc","refreshToken":"YaUIOX3PYUrZBy6G7x9UP0JQ84O54VDznGQgdW9nlvU="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 14:36:22
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 14:36:38
+StatusCode: 303
+Response: 
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 14:36:54
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+
+[Request]
+Timestamp: 16-07-2024 14:43:54
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 14:43:59
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiIwNmE1YjFjMi0zZmIyLTQ5MDMtYmUxNy0yMTk0YmFmMjk2MDkiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMjMwMzYsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.42dndkwGluXETRtzMmV0GICi3NvyHVZvgxQqstZwspw","refreshToken":"6G4S9k+hLQcIchIZ7V37DnAYRYlIfDbybTeZGM7PLzM="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 14:44:15
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+
+[Request]
+Timestamp: 16-07-2024 14:46:25
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 14:46:28
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiI4ZGJmZWNlZi0zMzg1LTQ2MTktYjQwMS1lYTA2YjI0ZjcyMDkiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMjMxODcsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.aghnYB6Kw8pgkzYk9n4Uau_7Q8si5ZrWyxfwOT6fItQ","refreshToken":"OwupJvyzEt7ybJ4qwzG9/41USSOeF6YC20etjBsUuQU="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 14:46:44
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 14:47:10
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiI3MDVlMDRmZS1hOTc2LTQxN2UtOTJhNy1hZWM3MTU1MzI4MmUiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMjMyMDQsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.F2X50g5KAYiQXFMY9157NtZoqWj7chH3IdSOrlalH80","refreshToken":"llVK808VHjAmElR45EyUfmPwz394AKSUheDMLcQfIxo="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 14:49:12
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 14:49:15
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiIwNGJkMDU0ZC00MDU1LTRiMjYtODY0Ny02Y2ExZmU3MmVkMzUiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMjMzNTUsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.8bx-g_EUoa7gi0HCNlXALEvoNlLM8vSsrycxNigaiiU","refreshToken":"tKPPyMN5bWayLzQOyCMH55bz5Y2lWQUifhG6gdQsXzs="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 14:49:58
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 14:49:58
+StatusCode: 401
+Response: 
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 14:50:15
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 14:50:15
+StatusCode: 200
+Response: [{"name":"Biprodeep Das","email":"bipro1@gmail.com","post":"Associate","salary":100},{"name":"Gobinda Saha","email":"gobinda@gmail.com","post":"Senior","salary":200},{"name":"BiprodeepAD","email":"bipro12@gmail.com","post":"Associate","salary":100},{"name":"Hulk","email":"hulk@gmail.com","post":"Marketer","salary":10},{"name":"Rythm Sen","email":"rythm@mail.com","post":"Associate","salary":100},{"name":"Raja Banik","email":"raja@gmail.com","post":"Associate","salary":100}]
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 14:50:32
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 14:50:36
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiIxZjFiZmMwNC1hNTAzLTRkN2YtYTllYi1mMzNkZTMzNjBjNzIiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMjM0MzIsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.05fxT-MmdgSvZkXsQXvYixZzB9KSduL5z_GwULzL1mY","refreshToken":"oVihm8m7CYnm6+DvKLGYEr1iUk4xLS/w+yDQ/V2cIo8="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 14:50:49
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 14:50:49
+StatusCode: 200
+Response: [{"name":"Biprodeep Das","email":"bipro1@gmail.com","post":"Associate","salary":100},{"name":"Gobinda Saha","email":"gobinda@gmail.com","post":"Senior","salary":200},{"name":"BiprodeepAD","email":"bipro12@gmail.com","post":"Associate","salary":100},{"name":"Hulk","email":"hulk@gmail.com","post":"Marketer","salary":10},{"name":"Rythm Sen","email":"rythm@mail.com","post":"Associate","salary":100},{"name":"Raja Banik","email":"raja@gmail.com","post":"Associate","salary":100}]
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 14:50:50
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 14:50:50
+StatusCode: 200
+Response: [{"name":"Biprodeep Das","email":"bipro1@gmail.com","post":"Associate","salary":100},{"name":"Gobinda Saha","email":"gobinda@gmail.com","post":"Senior","salary":200},{"name":"BiprodeepAD","email":"bipro12@gmail.com","post":"Associate","salary":100},{"name":"Hulk","email":"hulk@gmail.com","post":"Marketer","salary":10},{"name":"Rythm Sen","email":"rythm@mail.com","post":"Associate","salary":100},{"name":"Raja Banik","email":"raja@gmail.com","post":"Associate","salary":100}]
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 14:51:11
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 14:51:11
+StatusCode: 200
+Response: [{"name":"Biprodeep Das","email":"bipro1@gmail.com","post":"Associate","salary":100},{"name":"Gobinda Saha","email":"gobinda@gmail.com","post":"Senior","salary":200},{"name":"BiprodeepAD","email":"bipro12@gmail.com","post":"Associate","salary":100},{"name":"Hulk","email":"hulk@gmail.com","post":"Marketer","salary":10},{"name":"Rythm Sen","email":"rythm@mail.com","post":"Associate","salary":100},{"name":"Raja Banik","email":"raja@gmail.com","post":"Associate","salary":100}]
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:02:44
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:02:47
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiIyZWNmOTMxOC05MjhmLTQ1ODUtODI1MS1jZmU4NzU0MWZlMGIiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMjQxNjcsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.nbvBJKta77VHuZtCnh3TUwnmxM-wc2U0B9QHOf_l2sQ","refreshToken":"/GweaXdtWFIM7/XBWWRUNUWeFdRL6KIJ8qSYlc0QPoY="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:03:28
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:03:28
+StatusCode: 200
+Response: [{"name":"Biprodeep Das","email":"bipro1@gmail.com","post":"Associate","salary":100},{"name":"Gobinda Saha","email":"gobinda@gmail.com","post":"Senior","salary":200},{"name":"BiprodeepAD","email":"bipro12@gmail.com","post":"Associate","salary":100},{"name":"Hulk","email":"hulk@gmail.com","post":"Marketer","salary":10},{"name":"Rythm Sen","email":"rythm@mail.com","post":"Associate","salary":100},{"name":"Raja Banik","email":"raja@gmail.com","post":"Associate","salary":100}]
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:03:52
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:03:52
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiIwYzIzYzJhNC0zZGI3LTQ5ZTctODJhNS1iODZiMWI1ZjZiY2UiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMjQyMzIsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.zsdLE21UaVMFDFY0A-ZM51lQO5QVa5VzxqULoYwGBdQ","refreshToken":"/J9jqI/wyYoOxzSNwzUYYP6xwKPw4LoFR8r38n3eEA0="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:04:11
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:04:11
+StatusCode: 200
+Response: [{"name":"Biprodeep Das","email":"bipro1@gmail.com","post":"Associate","salary":100},{"name":"Gobinda Saha","email":"gobinda@gmail.com","post":"Senior","salary":200},{"name":"BiprodeepAD","email":"bipro12@gmail.com","post":"Associate","salary":100},{"name":"Hulk","email":"hulk@gmail.com","post":"Marketer","salary":10},{"name":"Rythm Sen","email":"rythm@mail.com","post":"Associate","salary":100},{"name":"Raja Banik","email":"raja@gmail.com","post":"Associate","salary":100}]
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:04:26
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:04:26
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiJiMzY2ODE0OC1lMTkxLTQ1YWMtOWY2Mi1mZDYxODM3NzY0ODQiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMjQyNjYsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.3lyxFjh_XEOY1MV1Xx8DF1Ld7n1MyLJsX7q9JU7z7z0","refreshToken":"oRqgDwQwRJqHtpxuHNPyYx75KEMYjl+LNG7AZoyWP5U="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:04:44
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:04:44
+StatusCode: 200
+Response: [{"name":"Biprodeep Das","email":"bipro1@gmail.com","post":"Associate","salary":100},{"name":"Gobinda Saha","email":"gobinda@gmail.com","post":"Senior","salary":200},{"name":"BiprodeepAD","email":"bipro12@gmail.com","post":"Associate","salary":100},{"name":"Hulk","email":"hulk@gmail.com","post":"Marketer","salary":10},{"name":"Rythm Sen","email":"rythm@mail.com","post":"Associate","salary":100},{"name":"Raja Banik","email":"raja@gmail.com","post":"Associate","salary":100}]
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:05:23
+Method: POST
+Path: /api/Logout/logout
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:05:23
+StatusCode: 200
+Response: Token has been blacklisted
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:11:40
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:11:43
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiIzYzI4ZDVlOC0zMWIwLTRiMGUtOWExMy05NWNmZjFlNTc2NDciLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMjQ3MDIsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.vYgSGO2dqIs3AE2C5yXAV90RofSWFyazscEN_DW5D0M","refreshToken":"Lj9t4BbIaxEI6nV8qn31l0RU/AVuAY2kxzq9vYVdwys="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:12:02
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:12:02
+StatusCode: 200
+Response: [{"name":"Biprodeep Das","email":"bipro1@gmail.com","post":"Associate","salary":100},{"name":"Gobinda Saha","email":"gobinda@gmail.com","post":"Senior","salary":200},{"name":"BiprodeepAD","email":"bipro12@gmail.com","post":"Associate","salary":100},{"name":"Hulk","email":"hulk@gmail.com","post":"Marketer","salary":10},{"name":"Rythm Sen","email":"rythm@mail.com","post":"Associate","salary":100},{"name":"Raja Banik","email":"raja@gmail.com","post":"Associate","salary":100}]
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:12:21
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:12:21
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiJkOGI5NWMzNy1hODU3LTQ4ODUtOGFjOS01OWUwNTU4NzAwNGIiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMjQ3NDEsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.VM35r144BGvWIgZ7NCAB0rI4L6-n_C-5eoATGH9dvJg","refreshToken":"/9YP4vGI8gMlzpuMfw0reS97ptoYFt87HgHnLzupETE="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:12:48
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:12:48
+StatusCode: 200
+Response: [{"name":"Biprodeep Das","email":"bipro1@gmail.com","post":"Associate","salary":100},{"name":"Gobinda Saha","email":"gobinda@gmail.com","post":"Senior","salary":200},{"name":"BiprodeepAD","email":"bipro12@gmail.com","post":"Associate","salary":100},{"name":"Hulk","email":"hulk@gmail.com","post":"Marketer","salary":10},{"name":"Rythm Sen","email":"rythm@mail.com","post":"Associate","salary":100},{"name":"Raja Banik","email":"raja@gmail.com","post":"Associate","salary":100}]
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:13:07
+Method: POST
+Path: /api/Logout/logout
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:13:07
+StatusCode: 200
+Response: Token has been blacklisted
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:13:47
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:13:47
+StatusCode: 400
+Response: Token already loggedout
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:38:47
+Method: POST
+Path: /api/Login
+QueryString: ?id=47E22402-DC24-4069-F6CA-08DCA0D8D62B&password=bipro
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:38:48
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiJiYjU2MmFlNC0yMTMyLTRkYmQtOWZlMy02OWE1MTFhMmMwOTAiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMjYzMjgsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.3sqMnlJqnBEdADyD3sDxDQL00web45dZumscrW4gFlQ","refreshToken":"oC/rNhr6VtrPCf1+A+wlALCy7kZadDggvvsZB+0QR6c="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:39:09
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:39:09
+StatusCode: 200
+Response: [{"name":"Biprodeep Das","email":"bipro1@gmail.com","post":"Associate","salary":100},{"name":"Gobinda Saha","email":"gobinda@gmail.com","post":"Senior","salary":200},{"name":"BiprodeepAD","email":"bipro12@gmail.com","post":"Associate","salary":100},{"name":"Hulk","email":"hulk@gmail.com","post":"Marketer","salary":10},{"name":"Rythm Sen","email":"rythm@mail.com","post":"Associate","salary":100},{"name":"Raja Banik","email":"raja@gmail.com","post":"Associate","salary":100}]
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:39:30
+Method: POST
+Path: /api/Login/refresh
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:39:30
+StatusCode: 200
+Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0N2UyMjQwMi1kYzI0LTQwNjktZjZjYS0wOGRjYTBkOGQ2MmIiLCJqdGkiOiJjZGFmMjEzMy04ZWMyLTRiMzctYTUzYy04NTE0NmFjMTQwNDgiLCJlbWFpbCI6ImJpcHJvMTJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IkJpcHJvZGVlcEFEIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3MjExMjYzNzAsImlzcyI6IkJpcHJvZGVlcCIsImF1ZCI6IkJpcHJvZGVlcCJ9.FcVA9BtRbVUepcwDjuO1mqvE3chOacVDxbajXMe5y9I","refreshToken":"mRYADPIk6i9t9V43xzqiUl/oR2vl3g29dI+1hhWHMG0="}
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:39:53
+Method: GET
+Path: /api/Employee/GetData
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:39:53
+StatusCode: 200
+Response: [{"name":"Biprodeep Das","email":"bipro1@gmail.com","post":"Associate","salary":100},{"name":"Gobinda Saha","email":"gobinda@gmail.com","post":"Senior","salary":200},{"name":"BiprodeepAD","email":"bipro12@gmail.com","post":"Associate","salary":100},{"name":"Hulk","email":"hulk@gmail.com","post":"Marketer","salary":10},{"name":"Rythm Sen","email":"rythm@mail.com","post":"Associate","salary":100},{"name":"Raja Banik","email":"raja@gmail.com","post":"Associate","salary":100}]
+
+
+
+
+[Request]
+Timestamp: 16-07-2024 15:40:15
+Method: POST
+Path: /api/Logout/logout
+QueryString: 
+Headers: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders
+Body : Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream
+Ip Address : ::1
+
+[Response]
+Timestamp: 16-07-2024 15:40:15
+StatusCode: 200
+Response: Token has been blacklisted
+

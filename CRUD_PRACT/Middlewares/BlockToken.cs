@@ -28,6 +28,15 @@
             }
             await next(context);
         }
+
+        public static bool IsBlacklisted(string token)
+        {
+            if (token != null && tokens.Contains(token))
+            {
+                return true;
+            }
+            return false;
+        }
     }
     
 }
